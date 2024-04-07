@@ -1,8 +1,8 @@
 # Decode-Gaming-Behavior
 
-**Dataset Description:**
+<ins>**Dataset Description:**</ins>
 
-<ins>**Player Details Table:**</ins>
+**Player Details Table:**
 `P_ID`: Player ID
  `PName`: Player Name
  `L1_status`: Level 1 Status
@@ -10,7 +10,7 @@
  `L1_code`: Systemgenerated Level 1 Code
  `L2_code`: Systemgenerated Level 2 Code
 
-Level Details Table:
+**Level Details Table:**
  `P_ID`: Player ID
  `Dev_ID`: Device ID
  `start_time`: Start Time
