@@ -2,7 +2,7 @@
 
 **Dataset Description:**
 
-<ins> Player Details Table: </ins>
+<ins>**Player Details Table:**</ins>
 `P_ID`: Player ID
  `PName`: Player Name
  `L1_status`: Level 1 Status
