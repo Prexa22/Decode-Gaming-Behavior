@@ -23,7 +23,7 @@
 * `lives_earned`: Extra Lives Earned
 
 
-[<ins>**What you have to do?**</ins>] (https://github.com/Prexa22/Decode-Gaming-Behavior/blob/main/Decode-Gaming-Behavior)
+[<ins>**What you have to do?**</ins>](https://github.com/Prexa22/Decode-Gaming-Behavior/blob/main/Decode-Gaming-Behavior)
 
 1. Extract `P_ID`, `Dev_ID`, `PName`, and `Difficulty_level` of all players at Level 0.
 
