@@ -1,0 +1,14 @@
+CREATE TABLE [dbo].[level_details](
+	[Id] [int] NOT NULL,
+	[P_ID] [int] NOT NULL,
+	[Dev_ID] [varchar](6) NOT NULL,
+	[TimeStamp] [datetime] NOT NULL,
+	[Stages_crossed] [int] NOT NULL,
+	[Level] [int] NOT NULL,
+	[Difficulty] [varchar](10) NOT NULL,
+	[Kill_Count] [int] NOT NULL,
+	[Headshots_Count] [int] NOT NULL,
+	[Score] [int] NOT NULL,
+	[Lives_Earned] [int] NOT NULL
+) ON [PRIMARY]
+GO
