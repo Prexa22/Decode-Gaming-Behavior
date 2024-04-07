@@ -1,1 +1,37 @@
+DataBase and Table Creation
 
+CREATE DATABASE game_analysis
+
+CREATE TABLE [dbo].[level_details](
+	[Id] [int] NOT NULL,
+	[P_ID] [int] NOT NULL,
+	[Dev_ID] [varchar](6) NOT NULL,
+	[TimeStamp] [datetime] NOT NULL,
+	[Stages_crossed] [int] NOT NULL,
+	[Level] [int] NOT NULL,
+	[Difficulty] [varchar](10) NOT NULL,
+	[Kill_Count] [int] NOT NULL,
+	[Headshots_Count] [int] NOT NULL,
+	[Score] [int] NOT NULL,
+	[Lives_Earned] [int] NOT NULL,
+ CONSTRAINT [PK_level_details] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[player_details](
+	[Id] [int] NOT NULL,
+	[P_ID] [int] NOT NULL,
+	[PName] [varchar](30) NOT NULL,
+	[L1_Status] [bit] NOT NULL,
+	[L2_Status] [bit] NOT NULL,
+	[L1_Code] [varchar](15) NULL,
+	[L2_Code] [varchar](15) NULL,
+ CONSTRAINT [PK_player_details] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
