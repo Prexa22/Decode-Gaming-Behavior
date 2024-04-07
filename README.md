@@ -1,8 +1,9 @@
 # Decode-Gaming-Behavior
 
 **Dataset Description:**
-Player Details Table:
- `P_ID`: Player ID
+
+<ins> Player Details Table: </ins>
+`P_ID`: Player ID
  `PName`: Player Name
  `L1_status`: Level 1 Status
  `L2_status`: Level 2 Status
